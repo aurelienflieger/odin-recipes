@@ -1,0 +1,65 @@
+:root {
+  --header-main-bg: rgb(150, 67, 42);
+  --header-main-text: #fff;
+  --header-height: 100px;
+  --header-main-title: 32px;
+  --header-default-padding: 10px;
+}
+
+.header > *,
+.nav > * {
+  vertical-align: middle;
+  line-height: normal;
+  color: var(--header-main-text)
+}
+
+.header {
+  display: block;
+  background-color: var(--header-main-bg);
+  height: var(--header-height);
+  line-height: var(--header-height);
+}
+
+.title.main,
+.nav,
+.nav-list,
+.list-item {
+  display: inline-block;
+}
+
+.title.main {
+  font-weight: 800;
+  font-size: var(--header-main-title);
+  padding-left: var(--header-default-padding);
+}
+
+.nav {
+  margin-right: 30px;
+  position: absolute;
+  right: 0px;
+  line-height: var(--header-height);
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+.list-item {
+  padding-left: var(--header-default-padding);
+  padding-right: var(--header-default-padding);
+}
+
+.list-link {
+  text-decoration-line: none;
+}
+
+.list-link:hover {
+  text-decoration: underline;
+  color: purple;
+}
+
+.list-item + .list-item {
+  border-left-width: 1px;
+  border-left-color: white;
+  border-left-style: solid;
+}
