@@ -3,48 +3,88 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/styles.css" />
-    <title>odin-recipes</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>Odin Recipes</title>
   </head>
   <body>
     <header class="header">
-      <h1 class="title main">Odin Recipes</h1>
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="list-item">
-            <a class="list-link" href="" rel="noreferrer">Log In</a>
+      <h1 class="header__title">Odin Recipes</h1>
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__list-item">
+            <a class="header__list-link" href="" rel="noreferrer">Log In</a>
           </li>
-          <li class="list-item">
-            <a class="list-link" href="" rel="noreferrer">Magazine</a>
+          <li class="header__list-item">
+            <a class="header__list-link" href="" rel="noreferrer">Magazine</a>
           </li>
-          <li class="list-item">
-            <a class="list-link" href="" rel="noreferrer">Newsletter</a>
+          <li class="header__list-item">
+            <a class="header__list-link" href="" rel="noreferrer">Newsletter</a>
           </li>
         </ul>
       </nav>
     </header>
 
-    <h2 class="title secondary">Side dishes</h2>
-    <ul class="recipes">
-      <li class="recipe">
-        <a href="recipes/baked-beans.html" rel="noreferrer">Baked Beans</a>
-      </li>
-    </ul>
+    <main class="home">
+      <section class="home__section">
+        <article class="home__article">
+          <h2 class="home__subtitle">Side dishes</h2>
+          <ul class="home__list">
+            <li class="home__list-item">
+              <img
+                class="home__picture"
+                src="./img/baked-beans.webp"
+                alt="baked beans"
+              />
+              <a
+                class="home__link"
+                href="recipes/baked-beans.html"
+                rel="noreferrer"
+                >Baked Beans</a
+              >
+            </li>
+          </ul>
+        </article>
 
-    <h2 class="title secondary">Main Dishes</h2>
-    <ul class="recipes">
-      <li class="recipe">
-        <a href="recipes/avocado-salad.html" rel="noreferrer">Avocado Salad</a>
-      </li>
-    </ul>
+        <article class="home__article">
+          <h2 class="home__subtitle">Main dishes</h2>
+          <ul class="home__list">
+            <li class="home__list-item">
+              <img
+                class="home__picture"
+                src="./img/avocado-salad.webp"
+                alt="avocado salad"
+              />
+              <a
+                class="home__link"
+                href="recipes/avocado-salad.html"
+                rel="noreferrer"
+              >
+                Avocado Salad
+              </a>
+            </li>
+          </ul>
+        </article>
 
-    <h2 class="title secondary">Desserts</h2>
-    <ul class="recipes">
-      <li class="recipe">
-        <a href="recipes/chocolate-cake.html" rel="noreferrer"
-          >Chocolate Cake</a
-        >
-      </li>
-    </ul>
+        <article class="home__article">
+          <h2 class="home__subtitle">Desserts</h2>
+          <ul class="home__list">
+            <li class="home__list-item">
+              <img
+                class="home__picture"
+                src="./img/chocolate-cake.webp"
+                alt="chocolate cake"
+              />
+              <a
+                class="home__link"
+                href="recipes/avocado-salad.html"
+                rel="noreferrer"
+              >
+                Chocolate Cake
+              </a>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
   </body>
 </html>
