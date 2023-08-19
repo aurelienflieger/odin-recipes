@@ -1,0 +1,57 @@
+.dish {
+  border: 1px solid red;
+  display: block;
+  height: 100vh;
+  padding-top: 100px;
+  width: 100vw;
+}
+
+.dish__title {
+  font-variant: small-caps;
+  letter-spacing: 3px;
+  text-align: justify;
+  text-shadow: 1px 3px 5px hsl(19, 74%, 52%);
+  text-emphasis: open black;
+  text-emphasis-position: left under;
+  text-align-last: center;
+}
+
+.dish__picture-group {
+  text-align: center;
+  padding: 20px;
+}
+
+.dish__picture {
+  border-radius: 50%;
+  padding-bottom: 20px;
+  width: 600px;
+  filter: drop-shadow(0.5rem 0.5rem 1rem black);
+}
+
+.dish__caption {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.dish__section {
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.dish__subtitle {
+  font-size: 32px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+ul.dish__list {
+  list-style-type: disc;
+}
+
+ol.dish__list {
+  list-style-type: decimal;
+}
+
+.dish__list, .dish__paragraph {
+    line-height: 30px;
+}

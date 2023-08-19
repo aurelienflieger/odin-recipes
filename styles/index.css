@@ -1,6 +1,7 @@
 @import "fonts.css";
 @import "home.css";
 @import "header.css";
+@import "dish.css";
 
 html,
 *,
@@ -12,4 +13,23 @@ html,
 
 body {
     font-family: 'Fira Sans', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.link {
+  text-decoration-line: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.link:is(:hover, :focus) {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: hsl(19, 74%, 52%);
+}
+
+.link:is(:visited) {
+  text-decoration-line: none;
+  color:rgb(172, 90, 24);
+  
 }
